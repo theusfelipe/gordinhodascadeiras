@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+
+html {
+  margin: auto;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  text-align: center;
+  background: rgb(31, 68, 77);
+  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  font-family: "Outfit", sans-serif;
+}
+
+header {
+  margin-top: 4rem;
+  margin-bottom: 14rem;
+  font-size: 2.1rem;
+}
+
+header h1 {
+  color: rgb(248, 189, 26);
+  font-family: "Outfit", sans-serif;
+}
+
+header h3 {
+  color: rgb(255, 255, 255);
+  font-size: 2.3rem;
+  font-family: "Outfit", sans-serif;
+}
+
+.imagelogomobile img {
+  width: 25rem;
+  height: 25rem;
+  margin-top: 5rem;
+  border-radius: 1.6rem;
+  border: 0.4rem solid #aa850193;
+  filter: drop-shadow(0.1rem 0.1rem 5rem rgb(214, 190, 53));
+}
+
+.imagelogomobile:hover {
+  transform: scaleY(1.1);
+  transition: 200ms;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 9rem;
+  gap: 5rem;
+
+  list-style: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+
+.nav-list a:hover {
+  color: rgb(232, 205, 132);
+  transition: 1s;
+
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.7rem;
+}
+
+.social-links a {
+  color: rgb(248, 189, 26);
+  font-size: 3rem;
+}
+
+.social-links a:hover {
+  transition: 0.5s;
+  color: rgb(135, 108, 33);
+}
+
+main {
+  padding: 3.3em 3.3rem;
+}
+
+.description {
+  margin-bottom: 15rem;
+}
+
+.description h2 {
+  font-size: 3rem;
+  color: rgb(243, 204, 48);
+  margin-bottom: 2rem;
+}
+
+.description p {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 15rem; 
+}
+
+#contact div {
+  background-color: rgb(248, 189, 26);
+  border-radius: 1rem;
+  width: 25rem;
+  height: 4rem;
+}
+
+#contact h1 {
+  font-size: 3rem;
+  color: rgb(243, 204, 48);
+}
+
+#contact p {
+  color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+}
+
+#contact a {
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+  color: black;
+}
+
+#contact a div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact div:hover {
+  background-color: rgb(157, 129, 18);
+  transition: 0.7s;
+  border: 2px solid white;
+}
+
+
+footer {
+  color: gray;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
