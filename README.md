@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img alt="Calculadora de IMC" src=".github/preview.gif" width="100%">
+  <img alt="Page Gordinho das cadeiras" src=".github/preview.gif" width="100%">
 <p/>
 
 ## Site para Tráfego Pago Candidato a Vereador
